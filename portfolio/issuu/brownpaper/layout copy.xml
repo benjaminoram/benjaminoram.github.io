@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<viewer xmlns="http://issuu.com/viewer/1.0" backgroundColor="#0183d7" backgroundImage="#152,0,200,147" backgroundRepeat="repeat" backgroundSize="auto,auto" >
+
+ <skin source="skins.png" type="image"/>
+
+ <button action="pagePrevious" horizontalCenter="-40" top="10" upState="#38,0,75,36" overState="#38,37,75,73" downState="#38,74,75,110" disabledState="#38,111,75,147"/>
+
+ <button action="index" horizontalCenter="0" top="10" upState="#76,0,113,36" overState="#76,37,113,73" downState="#76,74,113,110" disabledState="#76,111,113,147"/>
+
+ <button action="pageNext" horizontalCenter="40" top="10" upState="#0,0,37,36" overState="#0,37,37,73" downState="#0,74,37,110" disabledState="#0,111,37,147"/>
+ 
+  <button action="fullScreen" horizontalCenter="80" top="10" upState="#114,0,150,36" overState="#114,37,150,73" downState="#114,74,150,110" disabledState="#114,111,150,147"/>
+ 
+ <dropp left="0" top="50" right="0" bottom="10"/>
+
+</viewer>

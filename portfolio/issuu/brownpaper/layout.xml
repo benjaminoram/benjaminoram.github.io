@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<viewer xmlns="http://issuu.com/viewer/1.0" backgroundColor="#0183d7" backgroundImage="#152,0,200,147" backgroundRepeat="repeat" backgroundSize="auto,auto" >
+
+ <skin source="skins.png" type="image"/>
+
+
+ 
+ <dropp left="0" top="10" right="0" bottom="10"/>
+
+</viewer>

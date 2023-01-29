@@ -1,0 +1,50 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Flash CubicVR</title>
+<script type="text/javascript" src="swfobject.js"></script>
+<script>
+      function thisMovie(movieName) {
+          if (navigator.appName.indexOf("Microsoft") != -1) {
+              return window[movieName];
+          } else {
+              return document[movieName];
+          }
+      }
+      function requestCube(value) {
+          thisMovie("cubicvr").requestCube(value);
+      }
+</script>
+<style type="text/css">
+<!--
+body {
+	background-color: #666666;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style></head>
+
+<body>
+<table width="100%" height="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="middle">
+	<div id="flashcontent">
+		<strong>You need to upgrade your Flash Player</strong>
+	  Please visit: <a href="http://www.adobe.com/products/flashplayer">http://www.adobe.com/products/flashplayer</a>
+	</div>
+	<script type="text/javascript">
+		// <![CDATA[
+		var so = new SWFObject("Main.swf", "cubicvr", "384", "258", "9", "#999999");
+		so.write("flashcontent");
+		// ]]>
+	</script>
+	<a href="javascript:requestCube('lobby');" />test</a>
+	</td>
+  </tr>
+</table>
+
+</body>
+</html>
